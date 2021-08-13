@@ -1,0 +1,22 @@
+.logo{
+    height: 100%;
+    height: 100%;
+    display: flex!important;
+}
+.logo .logo-img{
+    display: flex!important;
+    justify-content: center;
+    align-items: center;
+}
+.logo .logo-img img{
+    width: 100px;
+    height: 70px;
+}
+@media only screen and (max-width:776px){
+    .video-section{
+        flex-direction: column!important;
+    }
+    .ui.column.grid>[class*="eight wide"].column, .ui.grid>.column.row>[class*="eight wide"].column, .ui.grid>.row>[class*="eight wide"].column, .ui.grid>[class*="eight wide"].column{
+        width: 100%!important;
+    }
+}
